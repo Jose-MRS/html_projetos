@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #232B6A;
+}
+
+/* =========================
+   TIPOGRAFIA
+========================= */
+
+h1 {
+    color: #ABB5FF;
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    color: #fffefe;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    color: #DEE2FF;
+    font-size: 2rem;
+}
+
+/* =========================
+   CLASSES UTILITÁRIAS
+========================= */
+
+.centralizar {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+
+.ladinho {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.quadradinho1 {
+    width: 25vw;
+    height: 110vh;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: #1E2138;
+    border-radius: 3vh;
+}
+
+.quadradinho1 img {
+    max-width: 70%;
+    height: auto;
+}
+
+.quadradinho1:hover{
+    background-color: #1e2138ca;
+}
+
+/* =========================
+   BOTÕES
+========================= */
+
+.botao {
+    width: 15em;
+    height: 3em;
+
+    margin: auto;
+
+    background-color: black;
+    border-radius: 10px;
+
+    font-size: 1em;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #007bff;
+}
+
+.tirar {
+    color: white;
+    font-size: 2em;
+    line-height: 150%;
+    text-decoration: none;
+}
