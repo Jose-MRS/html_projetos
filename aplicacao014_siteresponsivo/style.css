@@ -1,0 +1,33 @@
+/* Paragrafos */
+*{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin: 10px;
+}
+
+p{
+    color: black;
+}
+
+/* Caixas */
+
+body{
+    background-color: #009C5F;
+}
+
+.caixinha1{
+    background-color: #153629;
+    background-size: 100%;
+}
+
+.MENU{
+    display: flex;
+    flex-direction: row;
+}
