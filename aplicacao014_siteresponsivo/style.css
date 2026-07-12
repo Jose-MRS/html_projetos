@@ -1,7 +1,10 @@
 /* Paragrafos */
 *{
     color: white;
+    margin: 0;
+    padding: 0;
 }
+
 h1{
     text-align: center;
 }
@@ -24,7 +27,7 @@ body{
 
 .caixinha1{
     background-color: #153629;
-    background-size: 100%;
+    box-sizing: border-box;
 }
 
 .MENU{
