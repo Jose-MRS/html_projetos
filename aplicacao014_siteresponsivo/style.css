@@ -3,6 +3,8 @@
     color: white;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    
 }
 
 h1{
@@ -33,4 +35,19 @@ body{
 .MENU{
     display: flex;
     flex-direction: row;
+}
+
+.caixaprincipal{
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    width: 50vw;
+    height: 150vh;
+    justify-content: center;
+    text-align: justify;
+}
+.caixinha2{
+    background-color:#153629;
+
 }
