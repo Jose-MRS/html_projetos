@@ -16,6 +16,9 @@ h2{
 h3{
     margin: 10px;
 }
+h4{
+    color: black;
+}
 
 p{
     color: black;
@@ -24,7 +27,10 @@ p{
 /* Caixas */
 
 body{
-    background-color: #009C5F;
+    background-color: #009c60aa;
+}
+main{
+    color: black;
 }
 
 .caixinha1{
@@ -42,12 +48,21 @@ body{
     padding: 20px;
     background-color: white;
     text-align: center;
-    width: 50vw;
-    height: 150vh;
+    width: 60%;
+    min-height: 250vh;
     justify-content: center;
     text-align: justify;
 }
 .caixinha2{
     background-color:#153629;
-
+}
+.caixinha3{
+    margin: auto;
+    padding: 20px;
+    background-color: #009c60aa;
+    width: 95%;
+    min-height: 40vh;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
 }
