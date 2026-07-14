@@ -10,27 +10,30 @@
 h1{
     text-align: center;
     padding: 20px;
+    
 }
 h2{
     text-align: center;
     font-size: 1rem;
-    padding-bottom: 10px;
 }
 h3{
     margin: 10px;
 }
 h4{
     color: black;
+    padding-left: 20px;
 }
 
 p{
     color: black;
+    padding: 20px;
 }
 
 /* Caixas */
 
 body{
     background-color: #009c60aa;
+    
 }
 main{
     color: black;
@@ -48,16 +51,20 @@ main{
 
 .caixaprincipal{
     margin: auto;
-    padding: 20px;
     background-color: white;
     text-align: center;
     width: 60%;
     min-height: 250vh;
     justify-content: center;
     text-align: justify;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .caixinha2{
     background-color:#153629;
+    margin: 0;
+    padding: 0;
+    
 }
 .caixinha3{
     margin: auto;
@@ -80,16 +87,14 @@ li{
 .ladoalado div{
     margin: auto;
 }
-
-
-
-
-
-
-
 img{
     width: 100%;
     margin: auto;
+}
+.imagem2{
+    width: 95%;
+    margin: auto;
+    display: block;
 }
 
 .imagem3{
@@ -102,13 +107,14 @@ img{
 iframe{
     width: 90%;
     margin: auto;
-    
+    display: block;
+    padding-bottom: 15px;
+    padding-top: 15px;
     
 }
 
 .caixavideo{
     background-color: #153629;
-    width: auto;
+    width: 100%;
     height: auto;
-    
 }
