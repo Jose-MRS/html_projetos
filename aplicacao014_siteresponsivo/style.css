@@ -63,12 +63,26 @@ main{
     margin: auto;
     padding: 20px;
     background-color: #009c60aa;
-    width: 95%;
-    min-height: 40vh;
+    min-width: 85%;
+    min-height: 30vh;
     text-align: center;
     justify-content: center;
     text-align: justify;
 }
+li{
+    color: black;
+}
+.ladoalado{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+}
+.ladoalado div{
+    margin: auto;
+}
+
+
+
 
 
 
@@ -83,4 +97,18 @@ img{
     margin: auto;
     text-align: center;
     display: block;
+}
+
+iframe{
+    width: 90%;
+    margin: auto;
+    
+    
+}
+
+.caixavideo{
+    background-color: #153629;
+    width: auto;
+    height: auto;
+    
 }
