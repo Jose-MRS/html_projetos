@@ -1,27 +1,62 @@
 /* Paragrafos */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#008C3A;
+    --cor1:#125930;
+    --cor2:#61F29D;
+    --cor3:#8dffaf9b;
+    --cor4:#CCFFE1;
+
+    --fonte-padrao: Arial;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+
+
 *{
     color: white;
     margin: 0;
     padding: 0;
+}
+
+a{
     text-decoration: none;
-    
+    color: var(--cor1);
+    font-weight: bold;
 }
 
 h1{
     text-align: center;
     padding: 20px;
+    font-family: var(--fonte-destaque);
     
 }
 h2{
     text-align: center;
     font-size: 1rem;
+    font-family:var(--fonte-padrao);
+    font-size: medium;
+    
 }
 h3{
     margin: 10px;
+    font-family: var(--fonte-padrao);
+    font-size:small
 }
 h4{
     color: black;
     padding-left: 20px;
+    padding: 10px;
+    font-family: var(--fonte-android);
 }
 
 h5{
@@ -30,22 +65,23 @@ h5{
     padding: 10px 10px;
     margin: 0;
     color: white;
-   
+    font-family: var(--fonte-padrao);
     font-size: 16px;
-    
 }
-
 
 p{
     color: black;
     padding: 20px;
     text-indent: 40px;
+    font-family: var(--fonte-padrao);
+    font-size: medium;
+    
 }
 
 /* Caixas */
 
 body{
-    background-color: #009c60aa;
+    background-color: var(--cor3);
     
 }
 main{
@@ -53,8 +89,9 @@ main{
 }
 
 .caixinha1{
-    background-color: #153629dd;
     box-sizing: border-box;
+    background: linear-gradient(var(--cor0), var(--cor1));
+
 }
 
 .MENU{
@@ -74,7 +111,7 @@ main{
     margin-bottom: 0;
 }
 .caixinha2{
-    background-color:#153629;
+    background-color: var(--cor1);
     margin: 0;
     padding: 0;
     
@@ -86,7 +123,7 @@ main{
     margin-top:10px;
     border-radius: 20px;
     padding: 0px;
-    background-color: #009c60aa;
+    background-color: var(--cor3);
     width: 96%;
     min-height: 30vh;
     text-align: center;
@@ -101,6 +138,7 @@ li{
     display: flex;
     flex-direction: row;
     padding: auto;
+    
 }
 .ladoalado div{
     margin: auto;
