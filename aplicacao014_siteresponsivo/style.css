@@ -55,8 +55,11 @@ h3{
 h4{
     color: black;
     padding-left: 20px;
-    padding: 10px;
+    padding-right: 20px;
+    font-size: larger;
     font-family: var(--fonte-android);
+    background: linear-gradient(to right, var(--cor3), var(--cor4), white); 
+    margin: 10px;   
 }
 
 h5{
@@ -67,6 +70,17 @@ h5{
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 16px;
+}
+
+h6{
+    color: black;
+    padding-left: 20px;
+    padding: 20px;
+    font-family: var(--fonte-android);
+    font-size: large;
+    
+
+
 }
 
 p{
@@ -169,7 +183,7 @@ iframe{
 }
 
 .caixavideo{
-    background-color: #153629dd;
+    background-color: var(--cor1);
     width: 100%;
     height: auto;
 }
