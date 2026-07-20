@@ -111,7 +111,37 @@ main{
 .MENU{
     display: flex;
     flex-direction: row;
+    padding: 0;
+    margin: 0;
 }
+
+.h:hover{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin:0;
+}
+
+.n:hover{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 0;
+}
+
+.c:hover{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 0;
+}
+
+.f:hover{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 0;
+}
+
+
+
+
 
 .caixaprincipal{
     margin: auto;
