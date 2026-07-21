@@ -1,0 +1,21 @@
+.quadrado{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+.quadrado
+
+h1{
+    color: red;
+}
+#q1{
+    background-image: url(imagens/wallpaper001.jpg) ;
+}
+#q2{
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+#q3{
+    background-image: url(imagens/wallpaper004.jpg);
+}
