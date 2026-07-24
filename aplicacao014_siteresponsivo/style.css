@@ -36,7 +36,7 @@ a{
 
 h1{
     text-align: center;
-    padding: 20px;
+    padding: 21px;
     font-family: var(--fonte-destaque);
     
 }
@@ -212,7 +212,6 @@ iframe{
     padding-bottom: 15px;
     padding-top: 15px; 
 }
-
 .caixavideo{
     background-color: var(--cor1);
     width: 100%;
