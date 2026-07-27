@@ -51,6 +51,10 @@ background-color: white;
 
 }
 
+.titulo{
+    display: inline;
+
+}
 
 
 
@@ -59,9 +63,13 @@ background-color: white;
 h1{
     color: white;
     font-family: "Passion One";
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
     padding-top: 50px;
+}
+.letra{
+    font-family: "Passion One";
+    font-size: 90px;
 }
 h2{
     color: white;
