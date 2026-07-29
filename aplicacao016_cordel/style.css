@@ -30,23 +30,26 @@
 
 .f_imagem1 {
     width: 100%;
-    min-height: 600px;
+    min-height: 680px;
     background-image: url(imagens/background001.jpg);
     background-position: center right;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-color: black;
+    position: relative;
 }
 
 .caixa01{
     background-color:black;
-    width: 600px;
-    height:600px;
+    min-width: 480px;
+    min-height:500px;
     margin: 20px;
+    padding: 0px;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
 
 }
-
 
 
 
@@ -67,9 +70,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    position: relative;
 
 }
+.caixa02{
+    background-color:black;
+    min-width: 480px;
+    min-height:500px;
+    margin: 20px;
+    padding: 0px;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
 
+}
 .f_branco3 {
 background-color: white;
 
@@ -84,10 +98,6 @@ background-color: white;
     display: inline;
 
 }
-
-
-
-
 
 h1{
     color: white;
@@ -124,16 +134,16 @@ h3{
     font-size: 40px;
     font-family: "Sriracha";
     font-weight: lighter;
-    padding: 40px;
-
+    padding: 20px;
 }
+
 
 h4{
     color: white;
     font-size: 40px;
     font-family: "Sriracha";
     font-weight: lighter;
-    padding: 40px;
+    padding: 0px;
     
 
 
