@@ -1,0 +1,99 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center top;
+    
+
+    
+}
+
+.celular{
+    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-size: 200px 400px;
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    right:40%;
+    top: 20vh;
+}
+.home{
+    background-image: url(pacote-d013/imagens/logo-home.jpg);
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+}
+.youtube{
+    background-image: url(pacote-d013/imagens/logo-youtube.jpg);
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.github{
+    background-image: url(pacote-d013/imagens/logo-github.jpg);
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.insta{
+    background-image: url(pacote-d013/imagens/logo-instagram.jpg);
+   background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.twitter{
+    background-image: url(pacote-d013/imagens/logo-twitter.jpg);
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.facebook{
+    background-image: url(pacote-d013/imagens/logo-facebook.jpg);
+    background-size: 35px;
+    width: 35px;
+    height: 35px;
+    background: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.facebook:hover{
+    border: 2px solid white;
+}
