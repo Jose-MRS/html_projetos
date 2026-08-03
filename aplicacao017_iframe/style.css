@@ -1,18 +1,27 @@
 *{
     text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
 }
 
-body{
+main{
     background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    height: 100vh;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center top;
-    
-
-    
+    background-attachment:relative;
+    background-position: center top; 
 }
+
+
 
 .celular{
     background-image: url(pacote-d013/imagens/frame-iphone.png);
@@ -20,10 +29,29 @@ body{
     width: 200px;
     height: 400px;
     position: absolute;
-    right:40%;
-    top: 20vh;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
-.home{
+iframe#tela{
+    
+    width: 173px;
+    height: 301px;
+    position: relative;
+    top: 51px;
+    left: 14px;
+    background-image: url(pacote-d013/imagens/tela-home.jpg);
+    background-size: cover;
+    
+
+    
+}
+
+.botoes{
+    text-align: right;
+}
+
+img{
     background-image: url(pacote-d013/imagens/logo-home.jpg);
     background-size: 35px;
     width: 35px;
@@ -32,68 +60,14 @@ body{
     background-repeat: no-repeat;
     object-fit: cover;
     border-radius: 50%;
-    margin: 8px;
+    margin-left: 8px;
+    box-shadow: 3px 3px 3px black;
+    margin-bottom: 8px;
+    margin-right: 18px;
 }
-.youtube{
-    background-image: url(pacote-d013/imagens/logo-youtube.jpg);
-    background-size: 35px;
-    width: 35px;
-    height: 35px;
-    background: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 8px;
 
-}
-.github{
-    background-image: url(pacote-d013/imagens/logo-github.jpg);
-    background-size: 35px;
-    width: 35px;
-    height: 35px;
-    background: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 8px;
-
-}
-.insta{
-    background-image: url(pacote-d013/imagens/logo-instagram.jpg);
-   background-size: 35px;
-    width: 35px;
-    height: 35px;
-    background: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 8px;
-
-}
-.twitter{
-    background-image: url(pacote-d013/imagens/logo-twitter.jpg);
-    background-size: 35px;
-    width: 35px;
-    height: 35px;
-    background: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 8px;
-
-}
-.facebook{
-    background-image: url(pacote-d013/imagens/logo-facebook.jpg);
-    background-size: 35px;
-    width: 35px;
-    height: 35px;
-    background: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 8px;
-
-}
-.facebook:hover{
+img:hover{
     border: 2px solid white;
+    transform: translateY(-5px);
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.7);
 }
