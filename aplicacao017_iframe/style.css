@@ -33,19 +33,6 @@ main{
     top: 50%;
     transform: translate(-50%, -50%)
 }
-iframe#tela{
-    
-    width: 173px;
-    height: 301px;
-    position: relative;
-    top: 51px;
-    left: 14px;
-    background-image: url(pacote-d013/imagens/tela-home.jpg);
-    background-size: cover;
-    
-
-    
-}
 
 .botoes{
     text-align: right;
@@ -70,4 +57,16 @@ img:hover{
     border: 2px solid white;
     transform: translateY(-5px);
     box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+
+
+iframe#tela{
+    
+    width: 173px;
+    height: 301px;
+    position: relative;
+    top: 51px;
+    left: 14px;
+    background-size: cover;
 }

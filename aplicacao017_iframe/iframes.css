@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+img{
+    width: 100vw;
+    background-size: cover;
+    background-size: auto;
+}
+a{
+    background-color: red;
+    width: 100vw;
+    height: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
