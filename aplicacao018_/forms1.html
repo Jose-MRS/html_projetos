@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post"> 
+        <!--  Via de regra esse é o modo de capturar os dados enviados pelo usuário, como eu não aprendi ainda uma linguagem eu só coloquei um nome qualquer  --> 
+        <fieldset>
+            <p><label for="iNome">Nome:</label>
+                <input type="text" name="Nome" id="iNome"></p>
+            <p><label for="iSobrenome">Sobrenome:</label>
+                <input type="text" name="Sobrenome" id="iSobrenome"></p>
+                <!-- Esse label relaciona o texto a uma caixa de input -->
+                 <label for="isenha">Senha: </label>
+            
+                    <input type="password" name="senha" id="isenha" required placeholder="senha">
+               
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio</legend>
+            <input type="radio" name="tipo" id="modelo1"> <label for="modelo1"> Modelo 1</label>
+            <br>
+            <input type="radio" name="tipo" id="modelo2">
+            <label for="modelo2">Modelo 2</label>
+        </fieldset>
+        
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Resetar"></p>
+    
+        
+    </form>
+    
+</body>
+</html>
