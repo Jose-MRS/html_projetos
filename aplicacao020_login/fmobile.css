@@ -1,4 +1,5 @@
 *{
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -12,6 +13,7 @@
     --color2:#053766;
     --color3:#110566;
     --color4:#0C5766;
+    --color5:rgba(21, 137, 160, 0.684);
 
 }
 
@@ -25,7 +27,7 @@ body{
  
 }
 .caixa{
-    height: 500px;
+    height: 520px;
     width: 300px;
     background-color: white;
     display: block;
@@ -50,38 +52,94 @@ body{
     
 }
 
+input[type="submit"] {
+  background-color:var(--color4);
+  width: 90%;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+:hover[type="submit"]{
+    background-color: var(--color3);
+}
+input[type=email]{
+    width: 240px;
+    height: 25px;
+}
+input[type=password]{
+    width: 240px;
+    height: 25px;
+}
+
+
+
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
 
 /* Paragrafos
 */
 
+
 h1{
     text-align: center;
+    font-size: x-large;
 }
 h2{
-    text-align: center
+    text-align: center;
 }
 h3{
-    text-align: center;
+    padding-left: 30px;
+    font-size: 15px;
 }
 
 #nome{
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     background-color: var(--color4);
     padding: 1px;
-    width: 218px;
+    width: 242px;
     margin: auto;
 
 }
 #senha{
-    margin: 8px;
+    margin: 7px;
     background-color: var(--color4);
     padding: 1px;
-    width: 222px;
+    width: 242px;
     margin: auto;
 }
+
+
 
 #apresentacao{
     text-align: justify;
     margin: 8px;
 
 }
+
+a{
+    background-color:white;
+    color: var(--color4);
+    border: 2px solid var(--color4);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    display: block;
+    width: 90%;
+    text-align: center; 
+    margin-top: 4px;     
+}
+a:hover{
+    background-color: var(--color5);
+}
+

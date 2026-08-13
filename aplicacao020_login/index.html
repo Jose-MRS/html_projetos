@@ -14,17 +14,19 @@
         <br>
         <h1>Login</h1>
         <br>
-        <p id="apresentacao">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        
         <br>
         <form action="cadastro.js" method="post">
-
-            <p id="nome">nome: <input type="email" name="email" id="iemail"></p>
-            <br>
-            <p id="senha">senha: <input type="password" name="senha" id="isenha"></p>
-            <h2><input type="submit" value="Entrar"></h2>
-            <h3>Esqueci a Senha</h3>
-
             
+            
+            <h3>Email</h3>
+            <p id="nome"><input type="email" name="email" id="iemail" placeholder="example: abcd@gmail.com"></p>
+            <br>
+            <h3>Senha</h3>
+            <p id="senha">  <input type="password" name="senha" id="isenha" placeholder="senha" required minlength="6"></p>
+            <br>
+            <h2><input type="submit" value="Entrar"></h2>
+            <a target="_blank" href="https://www.iplacas.com.br/placa_atencao_estamos_em_obras_desculpe_o_transtorno">Esqueci a Senha</a>     
         </form>
     </div>
     
