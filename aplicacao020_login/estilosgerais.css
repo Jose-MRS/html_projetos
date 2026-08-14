@@ -1,0 +1,145 @@
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .caixa {
+        width: 700px;
+        height: 400px;
+
+        display: flex;
+        flex-direction: row;
+
+        overflow: hidden;
+    }
+
+    .imagem {
+        width: 40%;
+        height: 100%;
+
+        border-radius: 20px 0 0 20px;
+
+        background-attachment: scroll;
+    }
+    
+
+}
+
+input[type=email],
+input[type=password] {
+        width: 400px;
+        height: 35px;
+        margin-left: 4px;
+        border-color:#10056648 ;
+        border-radius: 7px;
+    }
+
+
+
+h1 {
+        font-size: xx-large;
+    }
+
+h3 {
+        font-size: 18px;
+    }
+
+#apresentacao {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+input[type="submit"],a {
+        width: 80%;
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+}
+
+
+/* Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+body{
+    position: relative;
+}
+
+.caixa {
+        width: 700px;
+        height: 650px;
+    }
+
+.imagem {
+        width: 700px;
+        height: 280px;
+    }
+
+input[type=email],input[type=password] {
+        width: 550px;
+        height: 40px;
+    }
+
+
+
+h1 {
+        font-size: 32px;
+    }
+
+h3 {
+        font-size: 20px;
+    }
+
+#apresentacao {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+input[type="submit"],a {
+        width: 75%;
+        font-size: 20px;
+        padding: 14px 20px;
+    }
+}
+
+
+/* Telas grandes */
+@media screen and (min-width: 1440px) {
+
+
+.caixa {
+        width: 800px;
+        height: 700px;
+    }
+
+.imagem {
+        width: 800px;
+        height: 300px;
+    }
+
+input[type=email],input[type=password] {
+        width: 650px;
+        height: 45px;
+    }
+
+
+h1 {
+        font-size: 36px;
+    }
+
+h3 {
+        font-size: 22px;
+    }
+
+#apresentacao {
+        font-size: 22px;
+        margin: 25px;
+    }
+
+input[type="submit"],a {
+        width: 70%;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+}
