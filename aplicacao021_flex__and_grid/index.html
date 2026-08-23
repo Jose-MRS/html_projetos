@@ -5,15 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .pai{
-            display: flex;
-            flex-direction: row-reverse;
-
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
         }
+
+        body{
+            background-color: red;
+        }
+        
         .caixa{
-            flex: auto;
-            border: 5px solid black;
+            padding: 100px;
+            font-size: x-large;
+            background-color: blue;
             margin: 1px;
+        
+            
+        }
+        main{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            background-color: blueviolet;
+            width: 600px;
+            height: 500px;
         }
     </style>
 
@@ -22,20 +39,13 @@
 </head>
 <body>
 
-    <div class="pai">
-        <div class="caixa">
-            <h1>A1</h1>
-        </div>
-        <div class="caixa">
-            <h1>A2</h1>
-        </div>
-        <div class="caixa">
-            <h1>A3</h1>
-        </div>
-        <div class="caixa">
-            <h1>A4</h1>
-        </div>
-    </div>
+    <main>
     
+        <div class="pai">
+            <div class="caixa">
+                <h1>A1</h1>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
