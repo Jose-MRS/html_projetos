@@ -8,25 +8,58 @@
         *{
             margin: 0;
             padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
+        body{
+            background-color: rgba(128, 128, 128, 0.431);
+        }
+
         .caixa{
             background-color: gray;
             width: 100vw;
-            height: 140px;
+            height: 100px;
             display: flex;
             flex-direction: row;
         }
-        .caixainterna{
-            font-size: medium;
+        .nav{
+            flex:auto;
+            border: 1px black solid;
+            
         }
-        p{
+        a{
             background-color: black;
-            width:70px;
-            height:40px;
+            width:75px;
+            height:35px;
             margin:10px;
+            padding-top: 9px;
+            padding-left: 9px;
+            padding-right: 9px;
             color: white;
             border-radius: 4px;
             font-size: larger;
+            font-size: medium;
+            
+        }
+
+        .caixa_main{
+            background-color: white;
+            width: 80vw;
+            height: 50vh;
+            margin: auto;
+            border-radius: 4px;
+            padding: 9px;
+
+        }
+        h1{
+            margin:10px;
+            padding-top: 9px;
+            padding-left: 9px;
+            padding-right: 9px;
+            color: white;
+            border: 1px black solid ;
+        }
+        h2{
+            text-align: justify;
         }
 
     
@@ -40,18 +73,27 @@
 </head>
 <body>
     <div class="caixa">
-        <div class="caixainterna"><h1>Meu site</h1></div>
-        <p>Opção 1</p>
-        <p>Opção 2</p>
-        <p>Opção 3</p>
-        <p>Opção 4</p>
-        <p>Opção 5</p>
-        <p>Opção 6</p>
-        
-        <div class="caixainterna"> 
-           
-    </div>
+        <h1>Meu site</h1>
 
+        <div class="nav">
+        <a href="#"> Opção 1 </a>
+        <a href="#"> Opção 2 </a>
+        <a href="#"> Opção 3 </a>
+        <a href="#"> Opção 4 </a>
+        <a href="#"> Opção 5 </a>
+        <a href="#"> Opção 6 </a>    
+        </div>
+
+
+        
+    </div>    
+    <br>
+        <div class="caixa_main">
+            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Commodi facilis repellat nobis quae, facere reprehenderit ratione recusandae.
+             Earum non, et officia corporis vitae blanditiis fugit quidem. 
+             Quasi commodi libero recusandae.</h2>
+        </div>
         
 
 
