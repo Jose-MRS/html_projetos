@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
         }
         body{
             background-color: rgba(128, 128, 128, 0.431);
@@ -17,13 +18,17 @@
         .caixa{
             background-color: gray;
             width: 100vw;
-            height: 100px;
+            min-height: 100px;
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
         .nav{
-            flex:auto;
             border: 1px black solid;
+            margin: auto;
+            margin-right: 0px;
+            display: flex;
             
         }
         a{
@@ -31,15 +36,17 @@
             width:75px;
             height:35px;
             margin:10px;
-            padding-top: 9px;
-            padding-left: 9px;
-            padding-right: 9px;
+            padding: 9px;
             color: white;
             border-radius: 4px;
             font-size: larger;
             font-size: medium;
-            
         }
+        a:hover{
+            background-color: rgba(0, 0, 0, 0.272);
+
+        }
+
 
         .caixa_main{
             background-color: white;
@@ -51,12 +58,12 @@
 
         }
         h1{
-            margin:10px;
-            padding-top: 9px;
-            padding-left: 9px;
-            padding-right: 9px;
+            padding: 9px;
             color: white;
-            border: 1px black solid ;
+            border: 1px black solid;
+            margin: auto;
+            margin-left: 0;
+            flex: 0 0 200px;
         }
         h2{
             text-align: justify;
