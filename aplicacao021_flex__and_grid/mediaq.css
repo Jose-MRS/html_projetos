@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mediaq.css">
-    <style>
 
         *{
             margin: 0;
@@ -72,48 +64,36 @@
             text-align: justify;
         }
 
+@media (max-width: 600px) {
+
+    .caixa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    h1 {
+
+        margin: 10px auto;
+        flex: none;
+    }
+    a{
+        width: 90vw;
+        margin: auto;
     
-    
-
-    </style>
-
-
-
-
-</head>
-<body>
-    <div class="caixa">
-        <h1>Meu site</h1>
-
-        <div class="nav">
-        <a href="#"> Opção 1 </a>
-        <a href="#"> Opção 2 </a>
-        <a href="#"> Opção 3 </a>
-        <a href="#"> Opção 4 </a>
-        <a href="#"> Opção 5 </a>
-        <a href="#"> Opção 6 </a>    
-        </div>
-
-
-        
-    </div>    
-    <br>
-        <div class="caixa_main">
-            <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-             Commodi facilis repellat nobis quae, facere reprehenderit ratione recusandae.
-             Earum non, et officia corporis vitae blanditiis fugit quidem. 
-             Quasi commodi libero recusandae.</h2>
-        </div>
-        
-
-
-
-    </div>
-
-
-
-
+    }
 
     
-</body>
-</html>
+
+    .caixa_main {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+    }
+}
