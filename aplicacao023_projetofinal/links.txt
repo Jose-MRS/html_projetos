@@ -1,0 +1,10 @@
+https://jose-mrs.github.io/html_projetos/aplicacao011_repositoriodevideos/ -> projeto repositório
+https://jose-mrs.github.io/html_projetos/aplicacao008_acervodelivros/ -> projeto acervo de livros
+
+https://jose-mrs.github.io/html_projetos/aplicacao014_siteresponsivo/ -> projeto Blogdroid
+
+
+https://jose-mrs.github.io/html_projetos/aplicacao016_cordel/ -> projeto cordel
+https://jose-mrs.github.io/html_projetos/aplicacao017_iframe/ -> projeto Redes Sociais
+
+https://jose-mrs.github.io/html_projetos/aplicacao020_login/ -> projeto login
