@@ -29,9 +29,12 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
     position: sticky;
     top: 0;
     z-index: 1000; 
+    gap: 16px;
+ 
 
 
 
@@ -57,13 +60,25 @@ body{
 }
 
 a{
-    margin: 8px;
-    color: white;
+    color: var(--fundo-principal);
     transition: 0.5s;
 }
 a:hover{
-color: black;
+    background-color: rgba(255, 255, 255, 0.672);
+    border-radius: 4px;
+    height: 100%;
+    width: 40px;
+    display: flex;             
+    justify-content: center;   
+    align-items: center;
 }
+.icone-casa{
+    color:var(--fundo-card) ;
+}
+a:hover .icone-casa {
+    color: var(--destaque);
+}
+
 
 
 
@@ -81,13 +96,22 @@ color: black;
     .conteiner{
         display: grid;
         grid-template-columns: 1fr 8fr 1fr;
-        grid-template-rows: 50px 800px 400px 400px 800px 50px;
+        grid-template-rows: 40px 800px 400px 400px 800px 50px;
     }
 
     .menu{
         grid-column: 1/4;
         grid-row: 1/2;
-        text-align: center;
+         background-color: var(--destaque);
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: flex-end;
+         align-items: center;
+         position: sticky;
+         top: 0;
+         z-index: 1000; 
+         gap: 16px;
     }
     #apresentacao{
         grid-column: 2/3;
